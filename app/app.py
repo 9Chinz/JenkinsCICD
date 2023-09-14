@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "Index! 2"
+    return "Index! 3"
 
 @app.route('/hello/<name>', methods=['GET'])
 def hello(name):
